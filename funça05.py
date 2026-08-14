@@ -1,0 +1,11 @@
+def  gerar_cracha(nome,curso,campus="monteiro",ano_ingresso='2026'):
+    print("-"*30)
+    print("CRACHA DO ESTUDANTE")
+    print("-"*30)
+    print(F"nome : {nome}") 
+    print(f"curso : {curso}")
+    print(f"ano_ingresso : {ano_ingresso}")
+    print(f"campus : {campus}")
+gerar_cracha("isaque","ads",)
+gerar_cracha('carlos',"ted","sume")
+gerar_cracha("diogo","ted","campinas","2016")
